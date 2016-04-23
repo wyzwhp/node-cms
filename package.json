@@ -1,0 +1,40 @@
+{
+  "name": "node-cms",
+  "version": "1.0.0",
+  "description": "cms",
+  "main": "index.js",
+  "scripts": {
+    "test": "PORT=8033 node test.js",
+    "start": "PORT=8080 node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "cms"
+  ],
+  "author": "wangyanzhong",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "eventproxy": "^0.3.4",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "jquery": "^2.2.3",
+    "jsdom": "^8.4.0",
+    "mongodb": "^2.1.16",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "serve-favicon": "^2.3.0",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-uglify": "^1.5.3"
+  }
+}
